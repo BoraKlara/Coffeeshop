@@ -42,11 +42,11 @@
 }
 
 .left-right-section .text {
-  /*  width:  50%; */
+  width: 50%;
   height: 420px;
   color: #1e3932;
   flex: 1;
-  /*     padding: 32px 48px; */
+  padding: 32px 48px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,9 +115,10 @@
 
 .chill .text h3 {
   line-height: 1.1;
-  font-size: 19px;
+  font-size: 14px;
   line-height: 1.5;
   letter-spacing: -0.01em;
+  text-align: center;
 }
 
 .section {
@@ -191,10 +192,11 @@
 
 .news-section-container {
   background-color: #d4e9e2;
-  min-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   margin-top: 40px;
   display: flex;
+  overflow: hidden;
 }
 
 .news-text-container {
@@ -203,7 +205,7 @@
 }
 
 .news-text-container .text {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,7 +214,6 @@
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 14px;
-  flex-grow: 1;
 }
 
 .news-text-container .cta-container .cta {
@@ -226,4 +227,5 @@
 .news-image-container .news-images img {
   max-width: 100%;
   height: auto;
+  overflow: hidden;
 }
