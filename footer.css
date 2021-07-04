@@ -1,6 +1,28 @@
 footer{
     height: 200px;
     padding: 24px 0;
-    box-sha
+}
+
+footer .container{
+    display: flex;
+}
+
+.aboutUs-section{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.career-section{
+     display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+}
+
+.career-section ul {
+     
+    list-style: none;
 
 }
+
