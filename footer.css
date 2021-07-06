@@ -1,28 +1,101 @@
-footer{
-    height: 200px;
-    padding: 24px 0;
+footer {
+  height: 200px;
+  padding: 24px 0;
 }
 
-footer .container{
-    display: flex;
+.footer-section {
+  display: flex;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
 }
 
-.aboutUs-section{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
+.footer-column-container {
+  display: flex;
+  height: 200px;
 }
 
-.career-section{
-     display: flex;
-    flex-direction: column;
-    list-style: none;
-    text-decoration: none;
+.footer-columnWidth {
+  display: flex;
+  width: 190px;
+  max-width: 190px;
+  height: 100%;
 }
 
-.career-section ul {
-     
-    list-style: none;
-
+.list {
+  list-style: none;
 }
 
+.aboutUs-section {
+  display: flex;
+  flex-direction: column;
+  /* list-style: none;
+  text-decoration: none; */
+  color: rgba(0, 0, 0, 0.87);
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  flex: 1;
+}
+
+.career-section {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  justify-content: space-between;
+  /*   flex: 1; */
+}
+
+.social-section {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.business-section {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+.order-section {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
+hr {
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+}
