@@ -1,5 +1,5 @@
 footer {
-  height: 200px;
+  height: 500px;
   padding: 24px 0;
 }
 
@@ -12,26 +12,39 @@ footer {
 }
 
 .footer-column-container {
-  display: flex;
-  height: 200px;
+  min-width: 1024px;
+  display: flex !important;
 }
 
 .footer-columnWidth {
-  display: flex;
+  display: inline-block;
+  /*   flex-wrap: wrap; */
   width: 190px;
   max-width: 190px;
   height: 100%;
+  margin-left: 3.2rem !important;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+.footer-columnWidth h3 {
+  font-size: 1.4rem;
 }
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
-.aboutUs-section {
-  display: flex;
-  flex-direction: column;
-  /* list-style: none;
-  text-decoration: none; */
+li a {
+  text-decoration: none;
+}
+/* .aboutUs-section {
+ 
+
   color: rgba(0, 0, 0, 0.87);
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -39,12 +52,9 @@ footer {
   line-height: 1.5;
   letter-spacing: -0.01em;
   flex: 1;
-}
+} */
 
-.career-section {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
+/* .career-section {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -53,10 +63,10 @@ footer {
   line-height: 1.5;
   letter-spacing: -0.01em;
   justify-content: space-between;
-  /*   flex: 1; */
-}
+  
+} */
 
-.social-section {
+/* .social-section {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -67,35 +77,35 @@ footer {
   font-size: 1.4rem;
   line-height: 1.5;
   letter-spacing: -0.01em;
-}
+} */
 
-.business-section {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
+/* .business-section {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.4rem;
   line-height: 1.5;
   letter-spacing: -0.01em;
-}
+} */
 
-.order-section {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
+./* order-section {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.4rem;
   line-height: 1.5;
   letter-spacing: -0.01em;
-}
+} */
 
 hr {
   padding-top: 3.2rem !important;
   padding-bottom: 3.2rem !important;
+}
+
+.footer-link {
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+  margin-bottom: 0.8rem;
 }
