@@ -13,7 +13,8 @@ footer {
 
 .footer-column-container {
   min-width: 1024px;
-  display: flex !important;
+  display: inline-flex; /* !important; */
+  width: 100%;
 }
 
 .footer-columnWidth {
@@ -37,22 +38,22 @@ footer {
 .list {
   list-style: none;
   text-decoration: none;
+
+  text-align: left;
+  width: 20%;
+  line-height: 25px;
 }
 
 li a {
   text-decoration: none;
 }
-/* .aboutUs-section {
- 
 
-  color: rgba(0, 0, 0, 0.87);
-  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.5;
-  letter-spacing: -0.01em;
-  flex: 1;
-} */
+.aboutUs-section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+}
 
 /* .career-section {
   text-decoration: none;
