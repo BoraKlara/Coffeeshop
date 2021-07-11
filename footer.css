@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px;
+  color: #fff;
+}
+
+.footer > * {
+  flex: 1 100%;
+}
+
+.footer-top {
+  margin-right: 1.25;
+  margin-bottom: 2em;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer-top > * {
+  flex: 1 15%;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #212121;
+  padding-left: 2em;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 2em;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.inline {
+  font-size: 1.6em;
+  color: rgba(0, 0, 0, 0.56);
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+}
