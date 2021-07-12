@@ -9,6 +9,8 @@ footer {
   flex-flow: row wrap;
   padding: 50px;
   color: #fff;
+  box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
 }
 
 .footer > * {
@@ -45,6 +47,8 @@ h2 {
 .footer a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
+  width: 32px;
+  height: 32px;
 }
 
 .inline {
@@ -52,4 +56,21 @@ h2 {
   color: rgba(0, 0, 0, 0.56);
   padding-right: 0.8rem;
   padding-left: 0.8rem;
+}
+
+.footer-right {
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 0.6rem;
+}
+
+.ruler {
+  font-size: 1.6rem;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+.ruler:before {
+  content: "";
+  display: block;
 }
