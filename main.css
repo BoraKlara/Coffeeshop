@@ -121,6 +121,17 @@
   text-align: center;
 }
 
+.happy {
+  background-color: #f2f0eb;
+  height: 720px;
+}
+
+.happy h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
 .section {
   display: flex;
 }
