@@ -240,3 +240,15 @@
   height: auto;
   overflow: hidden;
 }
+
+.note {
+  display: flex;
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.note h5 {
+  font-size: 0.6rem;
+}
